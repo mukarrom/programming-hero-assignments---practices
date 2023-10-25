@@ -1,0 +1,34 @@
+.reviewItem{
+    width: 571px;
+    height: 107px;
+    border: 1px solid #95a0a7;
+    box-sizing: border-box;
+    border-radius: 8px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin: 20px 100px;
+    padding: 5px 10px;
+}
+.detail-container{
+    width: 100%;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+img{
+    width: 91px;
+    height: 91px;
+}
+.detail-container h6{
+    font-size: 21px;
+    margin: 0;
+}
+.detail-container p{
+    font-size: 15px;
+    margin: 0;
+}
+span{
+    color: #FF9900;
+}

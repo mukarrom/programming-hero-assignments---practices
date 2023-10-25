@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Computer Science",
+    "description": "Learn Computer and Computer Science with good tutor. Learn all Computer Science subjects up to the post-graduate level",
+    "img": "https://i.ibb.co/7k7JyT6/online-education.png",
+    "price": 32
+  },
+  {
+    "id": 2,
+    "name": "Science",
+    "description": "everything from writing lab reports to balancing chemical equations to understanding projectile motion",
+    "img": "https://i.ibb.co/6bw3xB3/chemistry-1.png",
+    "price": 31
+  },
+  {
+    "id": 3,
+    "name": "Math",
+    "description": "I focus on building students' confidence in their math skills, which help them to solve problems. I am patient, friendly and all my students tell me that I explain concepts more effectively than their teachers.",
+    "img": "https://i.ibb.co/WnxNVGM/test.png",
+    "price": 46
+  },
+  {
+    "id": 4,
+    "name": "Experimenters Club",
+    "description": "In depth lesion, easy to understand. more easy with spacial tools. learn and go above the rest. very knowledgeable and helpful. ",
+    "img": "https://i.ibb.co/NTPYvFd/vector.png",
+    "price": 29
+  }
+]

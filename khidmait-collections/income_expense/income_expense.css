@@ -1,0 +1,75 @@
+@import url('https://fonts.maateen.me/kalpurush/font.css');
+
+body {
+	-webkit-print-color-adjust: exact !important;
+	print-color-adjust: exact !important;
+  margin: 0;
+  padding: 2rem;
+  box-sizing: border-box;
+  font-family: 'Kalpurush', Arial, sans-serif !important;
+}
+/* --------- header ---------- */
+header {
+  text-align: center;
+  line-height: 0.5;
+}
+header .college-name {
+  color: green;
+  font-weight: 900;
+}
+header .about {
+  color: chocolate;
+}
+header .address {
+  color: blueviolet;
+}
+header .title {
+  color: blue;
+}
+
+/* ------- table -------- */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  border: 1px solid #575555;
+  padding: 5px 10px;
+}
+th {
+  background-color: green;
+  color: white;
+}
+tbody tr td:nth-child(2),
+tbody tr td:nth-child(4) {
+  text-align: end;
+  width: 10%;
+}
+.initial-due>div {
+  display: flex;
+  justify-content: space-between;
+}
+.initial-due>div:last-child {
+  border-top: 1px solid grey;
+}
+tfoot tr td:nth-child(2),
+tfoot tr td:nth-child(4) {
+  text-align: end;
+  width: 10rem;
+  align-content: inherit;
+}
+tfoot tr:last-child {
+  font-weight: bold;
+}
+/* signature */
+
+.signature {
+	display: flex;
+	justify-content: space-between;
+	margin: 6rem 10px;
+  font-size: 12px;
+}
+.signature div {
+	text-align: center;
+	font-weight: 500;
+}

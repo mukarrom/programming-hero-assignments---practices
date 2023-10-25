@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Insta-Sohor</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+
+    <!-- google Montserrat  font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light px-5">
+            <a class="navbar-brand" href="#">Insta-Sohor</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-link active" role="button" onclick="switchTab( 'posts' )">
+                        <i class="fa-solid fa-house"></i>
+                    </li>
+
+                    <li class="nav-link active" role="button" onclick="switchTab( 'liked' )">
+                        <i class="fa-solid fa-heart text-danger"></i>
+                    </li>
+
+                    <li class="nav-link active" role="button" onclick="switchTab( 'reported' )">
+                        <i class="fa-solid fa-eye-slash"></i>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="main container mx-auto p-3">
+        <div id="posts">
+        </div>
+        <div id="liked">
+            <h1>Liked posts</h1>
+        </div>
+
+        <div id="reported">
+            <h1>Reported posts</h1>
+        </div>
+    </main>
+    <section class="container">
+        <div class="col-8 mx-auto">
+            <div>
+                <h4><b>প্রশ্নঃ</b> জাভাস্ক্রিপ্ট কিভাবে কাজ করে?</h4>
+                <p class=""><b>উত্তরঃ</b> জাভাস্ক্রিপ্টে সবকিছু এক্সিকিউশন কনটেক্সের ভিতর হয়। আর এক্সিকিউশন কনটেক্স হল
+                    একটা
+                    বক্সের মত। এবং তার মধ্যে দুইটা কম্পোনেন্ট আছে। প্রথম কম্পোনেন্ট হলো মেমোরি কম্পোনেন্ট। আর এই মেমোরী
+                    কম্পোনেন্ট হলো এমন একটি জায়গা যেখানো সকল ভেরিএবলকে এবং সকল ফাংশনকে রাখা হয় key এবং value হিসাবে
+                    জোড়ায় জোড়ায়। এই মেমোরি কম্পোনেন্টকে ভ্যারিএবল এনভাইরনমেন্ট ও বলে। আর দ্বিতীয় কম্পোনেন্ট হলো কোড
+                    কম্পোনেন্ট এর এক্সিকিউশন কনন্টেক্সট। এটা এমন একটা জায়গা যেখানে একই সময় সর্বোচ্চ একটা লাইন কোড
+                    এক্সিকিউশন হয়। এটাকে 'Thread of Execution' ও বলা হয়। এটা দ্বিতীয় লাইনে তখনই যেতে পারে যখন বর্তমান
+                    লাইনটা এক্সিকিউশন সম্পন্ন হবে। এজন্যই জাভাস্ক্রিপ্ট হলো synchronous threatened language।
+                </p>
+            </div>
+            <div>
+                <h4><b>প্রশ্নঃ</b> জাভাস্ক্রিপ্ট ইভেন্ট লুপ কিভাবে কাজ করে?</h4>
+                <p class=""><b>উত্তরঃ</b> সহজে বলতে গেলে: জাভাস্ক্রিপ্ট ইঞ্জিনগুলো একটা কাউন্টারের মত ধরা যায়। সেখানে
+                    আমাদের
+                    লিখিত
+                    কোডগুলো হল কাস্টমারের মত। কাউন্টারে যেভাবে লাইনে থাকা কাস্টমারদের একজন একজন করে সিরিয়াল অনুযায়ী
+                    সার্ভিস
+                    দেয়, ঠিক তেমন ভাবেই জাভাস্ক্রিপ্ট ইঞ্জিন কোডগুলোকে একটার পর একটা রিড করে, তারপর সবগুলিকে একটা লাইনে
+                    দাড়
+                    করিয়ে দেয় এবং একটার পর একটা এক্সিকিউট করে। এখন কোন ফাংশন যদি এক্সিকিউট হওয়ার জন্য নির্দিষ্ট সময় বেধে
+                    দেওয়া হয়, তাহলে সেটাকে নোট করে রাখে, এবং সময় হওয়ার সাথে সাথে সেটাকে লাইনে দাড় করিয়ে দেয়। তখন সেটা
+                    এক্সিকিউট হয়। কিন্তু কোন অবস্থাতেই দুটি স্টেটমেন্টকে একসাথে এক্সিকিউট করবে না। এভাবেই ইভেন্ট লুপ কাজ
+                    করে।
+                </p>
+            </div>
+            <div>
+                <h4><b>প্রশ্নঃ</b> লোকাল স্টোরেজ এবং সেশন স্টোরেজের মধ্যে পার্থক্য কী?</h4>
+                <p class=""><b>উত্তরঃ</b> ওয়েব স্টোরেজ API-এর স্টোরেজ ইন্টারফেস একটি নির্দিষ্ট ডোমেনের সেশন বা লোকাল
+                    স্টোরেজে অ্যাক্সেস প্রদান করে। উদাহরণস্বরূপ, এটি সংরক্ষিত ডেটা আইটেমগুলির সংযোজন, পরিবর্তন বা ডিলিট
+                    করার অনুমতি দেয়। লোকাল স্টোরেজ এবং সেশন স্টোরেজ প্রায় একই রকম, যেমন: তারা একটি নির্দিষ্ট ডোমেনের
+                    জন্য key, value জোড়া সঞ্চয় করে। সংরক্ষিত value শুধুমাত্র স্ট্রিং আকারে থাকবে ইত্যাদি।
+                    তবে তাদের মধ্যে একটি প্রধান পার্থক্য হলো:
+                    লোকাল স্টোরেজ: অনির্দিষ্ট সময়ের জন্য ডেটা সংরক্ষণ করে। ব্যবহারকারী নিজে মুছে না দিলে বা ব্রাউজার
+                    ডাটা সাফ না করে দিলে তার ডাটা ব্রাউজারে সংরক্ষিত থাকে। সুতরাং যদি উক্ত ট্যাব বা ব্রাউজার বন্ধ করে
+                    ফেলা হয় তবুও ডাটা সংরক্ষিত থাকবে। পক্ষান্তরে সেশন স্টোরেজ: এটা নির্দিষ্ট সময়ের জন্য ডেটা সংরক্ষণ
+                    করে। অর্থাৎ, ব্রাউজার বা ট্যাব যতক্ষণ চালু থাকে তৎক্ষণ তার ডেটা সংরক্ষিৎ থাকে। কিন্তু ব্রাউজার বা
+                    ট্যাব বন্ধ করে ফেললে তার ডেটাও মুছে যাবে।</p>
+            </div>
+        </div>
+    </section>
+    <footer></footer>
+
+    <!-- add javascript  file  -->
+    <script src="./js/app.js"></script>
+</body>
+
+</html>

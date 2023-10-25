@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        nav {
+            display: flex;
+            justify-content: space-between;
+        }
+        a {
+            text-decoration: none;
+            padding: 10px;
+            font-size: 1.3em;
+            font-weight: 700;
+            color: darkblue;
+        }
+        .login-container {
+            display: flex;
+            justify-content: center;
+        }
+        .login-form {
+            display: flex;
+            flex-direction: column;
+            
+            /* align-items: center; */
+        }
+        legend {
+            font-size: 1.5em;
+            font-weight: 700;
+        }
+        input, button {
+            margin-top: 10px;
+            padding: 5px;
+            border: 1px solid lightgray;
+            border-radius: 5px;
+        }
+        button {
+            background-color: yellowgreen;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <span>
+               <a href="">Home</a>
+               <a href="">Products</a>
+               <a href="">Services</a>
+               <a href="">About</a>
+            </span>
+            <span>
+                <a href="#"><i class="fas fa-user"></i></a>
+                <a href="#"><i class="fas fa-sign-out-alt"></i></a>
+            </span>
+        </nav>
+    </header>
+    <section class="login-container">
+        <form action="" class="login-form">
+            <legend>Login</legend>
+            <input type="email" name="email" id="email" placeholder="Your Email">
+            <input type="password" name="password" id="password" placeholder="Your Password">
+            <button type="submit">Login</button>
+        </form>
+    </section>
+
+    <script src="https://kit.fontawesome.com/4de82cb594.js" crossorigin="anonymous"></script>
+</body>
+</html>

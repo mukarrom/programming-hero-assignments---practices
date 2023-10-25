@@ -1,0 +1,401 @@
+[{
+  "id": "24f89c2c-f246-476e-a72c-9613923d4440",
+  "name": "Malay squirrel (unidentified)",
+  "price": 48
+}, {
+  "id": "bc121e9c-c0a9-4b92-97d1-a1c2c51c6f56",
+  "name": "Brocket, red",
+  "price": 62
+}, {
+  "id": "6e2d0b81-ad4c-42d3-adb4-1cce480bd2be",
+  "name": "Currasow (unidentified)",
+  "price": 88
+}, {
+  "id": "0517721d-60d1-49b1-8eb0-1d641e019723",
+  "name": "Gulls (unidentified)",
+  "price": 38
+}, {
+  "id": "c5d28463-5e72-4207-9bd3-e5f57308a9df",
+  "name": "European wild cat",
+  "price": 14
+}, {
+  "id": "a1b95877-ee86-4652-b5b1-3f85b2f5e54c",
+  "name": "Australian spiny anteater",
+  "price": 20
+}, {
+  "id": "beef4db1-2314-4f2e-9ede-3f8bda1b74a5",
+  "name": "Pied cormorant",
+  "price": 2
+}, {
+  "id": "fdd9aca8-9360-4f3e-843e-09445526fc81",
+  "name": "Marine iguana",
+  "price": 63
+}, {
+  "id": "352f536d-44d9-4347-bf16-aeaf6d5fce8a",
+  "name": "Darwin ground finch (unidentified)",
+  "price": 3
+}, {
+  "id": "e46b2e8d-ad99-42f7-a328-a4c44142d0be",
+  "name": "Cat, native",
+  "price": 26
+}, {
+  "id": "08b9faa9-851f-4679-8a4b-6a4d370e2e47",
+  "name": "Phalarope, northern",
+  "price": 60
+}, {
+  "id": "d6db732a-82be-4d15-8b8d-002bc191a1d0",
+  "name": "Tawny eagle",
+  "price": 76
+}, {
+  "id": "4e613fdf-1153-4ab2-abbd-b2b2035c3f50",
+  "name": "Snake, western patch-nosed",
+  "price": 62
+}, {
+  "id": "27a7e3d5-0235-4fed-bbe5-b46c942a6ba6",
+  "name": "Dolphin, bottle-nose",
+  "price": 82
+}, {
+  "id": "889fee4c-9e05-490d-9d44-3cb797b3633e",
+  "name": "Stork, white",
+  "price": 82
+}, {
+  "id": "04457047-1151-4b2e-8a56-d19e15f5d9a2",
+  "name": "Yellow baboon",
+  "price": 16
+}, {
+  "id": "88bedb22-f8ff-40e3-a0fe-7e98d6fb2f06",
+  "name": "Common green iguana",
+  "price": 49
+}, {
+  "id": "cbea00a0-4bfb-4e7d-a2f6-849567d0e034",
+  "name": "Blue-faced booby",
+  "price": 29
+}, {
+  "id": "341de22d-e050-476d-93ac-30262e050672",
+  "name": "Pigeon, feral rock",
+  "price": 84
+}, {
+  "id": "aafb5e48-bbe6-4420-b7f8-0a5db35d9498",
+  "name": "Painted stork",
+  "price": 80
+}, {
+  "id": "bfde1dcd-c210-4577-9e85-b775de26a9db",
+  "name": "Dusky gull",
+  "price": 12
+}, {
+  "id": "7eadb279-9bf4-4c4e-84cb-46e953f56f53",
+  "name": "Pied cormorant",
+  "price": 28
+}, {
+  "id": "04e2a119-b7fd-4d9f-a5cd-4180bc843acd",
+  "name": "Potoroo",
+  "price": 75
+}, {
+  "id": "11b7a580-f786-4c33-9888-a9477e98cace",
+  "name": "Booby, masked",
+  "price": 57
+}, {
+  "id": "54c52602-24ce-44ed-a411-ba925e4bf0e8",
+  "name": "Red-billed toucan",
+  "price": 67
+}, {
+  "id": "c640c452-f27b-4a0f-9e30-d2c56b5c6216",
+  "name": "Indian red admiral",
+  "price": 12
+}, {
+  "id": "8f1a98d4-af02-40cf-8b20-42fcff2f414f",
+  "name": "Hyrax",
+  "price": 84
+}, {
+  "id": "162d0bfa-5a31-4007-8fe8-1053fb261f62",
+  "name": "Pintail, bahama",
+  "price": 75
+}, {
+  "id": "b11e95e4-13b9-410f-ab1e-65f3a56e72c5",
+  "name": "Baleen whale",
+  "price": 13
+}, {
+  "id": "0708ddda-d972-4ce9-acbf-05d1f3d89ed6",
+  "name": "White-browed sparrow weaver",
+  "price": 79
+}, {
+  "id": "839f5e8d-d013-443d-bd10-3c353fc371aa",
+  "name": "White-rumped vulture",
+  "price": 2
+}, {
+  "id": "9c91859a-a5ef-4c8b-b0d9-5c822c413b01",
+  "name": "Lion, steller sea",
+  "price": 44
+}, {
+  "id": "dff871d7-bec6-4825-a5c5-40ab392a0773",
+  "name": "Wallaby, red-necked",
+  "price": 59
+}, {
+  "id": "0e9acd07-8b97-42a7-8525-eb38a278f455",
+  "name": "Barbet, black-collared",
+  "price": 87
+}, {
+  "id": "b2e36f8a-959b-48e2-b678-a4440e9a1a61",
+  "name": "Palm squirrel",
+  "price": 60
+}, {
+  "id": "43c38f34-7c7c-41bb-abcb-fcdaaaeca521",
+  "name": "African red-eyed bulbul",
+  "price": 6
+}, {
+  "id": "864ca8cb-d04c-474a-bd93-90af41faa8db",
+  "name": "Squirrel, arctic ground",
+  "price": 38
+}, {
+  "id": "0f91865d-7dbc-4bbe-b48c-2af5c9492493",
+  "name": "Admiral, indian red",
+  "price": 96
+}, {
+  "id": "00d981c2-90ae-410f-bc43-c00e404a7e51",
+  "name": "Yellow-billed hornbill",
+  "price": 36
+}, {
+  "id": "89ac8176-c567-4602-8d8f-03eddb8b40d2",
+  "name": "Flamingo, roseat",
+  "price": 47
+}, {
+  "id": "ee3eff89-b637-48f9-809f-fa8843f44218",
+  "name": "Lion, australian sea",
+  "price": 5
+}, {
+  "id": "13f5c826-026b-4e0c-9b54-f22f673e1e9c",
+  "name": "Starling, superb",
+  "price": 84
+}, {
+  "id": "a16ab078-3eca-416a-90ff-9fe2be7d52b6",
+  "name": "Royal tern",
+  "price": 13
+}, {
+  "id": "56967449-fa51-422a-86dc-a4bf34112a6f",
+  "name": "Greater adjutant stork",
+  "price": 41
+}, {
+  "id": "ee3a2f52-2a8b-4ee1-a886-67ddc61e46b4",
+  "name": "Downy woodpecker",
+  "price": 95
+}, {
+  "id": "11277741-2893-4742-a234-39139ac1f99f",
+  "name": "African polecat",
+  "price": 79
+}, {
+  "id": "d094b1ee-3942-4ce8-aee4-17558f78f490",
+  "name": "Mouflon",
+  "price": 38
+}, {
+  "id": "25376213-c7b8-4e5b-a56d-4b463092ace5",
+  "name": "Red-tailed wambenger",
+  "price": 12
+}, {
+  "id": "fb15216d-4b18-4775-bcd3-5491f0a7652e",
+  "name": "Defassa waterbuck",
+  "price": 61
+}, {
+  "id": "bbdaf283-8fbb-4c0b-a812-c0ceebb8eae9",
+  "name": "Indian red admiral",
+  "price": 47
+}, {
+  "id": "b7a5ece8-d4a1-45f4-aee4-a94d95230335",
+  "name": "Prairie falcon",
+  "price": 35
+}, {
+  "id": "501984cc-e33c-4b1b-b3aa-14b87dad4fe6",
+  "name": "Spur-winged goose",
+  "price": 96
+}, {
+  "id": "3732f393-6ee4-4783-83f8-c3b190bed9d0",
+  "name": "Red-knobbed coot",
+  "price": 87
+}, {
+  "id": "f1f94057-88d0-49f7-ba01-ca032ed8c722",
+  "name": "Cape wild cat",
+  "price": 79
+}, {
+  "id": "640f04ab-6452-40be-a777-5f01101e9584",
+  "name": "Savanna fox",
+  "price": 9
+}, {
+  "id": "ad0c39fc-9ccb-4261-8c00-855a9c590c90",
+  "name": "Wambenger, red-tailed",
+  "price": 52
+}, {
+  "id": "331401fe-3af4-4a47-a23e-41bf3c7ebc52",
+  "name": "Fowl, helmeted guinea",
+  "price": 8
+}, {
+  "id": "0481f2f2-7050-4e82-b035-626ea903dacc",
+  "name": "Square-lipped rhinoceros",
+  "price": 81
+}, {
+  "id": "d030578d-377b-4581-93e6-1d903cc29214",
+  "name": "Ovenbird",
+  "price": 62
+}, {
+  "id": "9ef61102-c1bf-4f1a-bb2d-71d173ad5349",
+  "name": "Trumpeter, green-winged",
+  "price": 4
+}, {
+  "id": "d7b4fd49-3c4f-4d5b-b863-e6ed4234c95b",
+  "name": "Crocodile, nile",
+  "price": 10
+}, {
+  "id": "36539a05-b4d9-43a1-a403-96132a1af5c1",
+  "name": "Lemur, ring-tailed",
+  "price": 54
+}, {
+  "id": "a2cdda57-54e7-4a55-8882-55d37e2e24d2",
+  "name": "Tammar wallaby",
+  "price": 53
+}, {
+  "id": "7407120d-d1bf-4c4f-9cea-6636fad3ee0d",
+  "name": "Pelican, great white",
+  "price": 50
+}, {
+  "id": "29693600-c0a6-482c-bde0-303b4398dc66",
+  "name": "Lion, california sea",
+  "price": 68
+}, {
+  "id": "0931770e-493d-44b4-bf8b-57e458eb1d36",
+  "name": "Capuchin, black-capped",
+  "price": 29
+}, {
+  "id": "84d24c1c-e088-4216-96e0-9089beaad995",
+  "name": "Deer, roe",
+  "price": 63
+}, {
+  "id": "a4e96775-6e82-4323-8d62-7f14e7d734dd",
+  "name": "Butterfly, tropical buckeye",
+  "price": 70
+}, {
+  "id": "3b9d9367-cc86-4b57-ba47-4837a1e29d8a",
+  "name": "African elephant",
+  "price": 84
+}, {
+  "id": "a2326f18-20eb-4f5b-baa2-3c3d57bc610c",
+  "name": "Sloth, two-toed tree",
+  "price": 46
+}, {
+  "id": "50d3c634-3d78-441c-a3cf-1c51adb90170",
+  "name": "Lion, california sea",
+  "price": 2
+}, {
+  "id": "0150c7ad-47ae-42be-a6ff-df24e80ba81f",
+  "name": "Raccoon, crab-eating",
+  "price": 53
+}, {
+  "id": "e5fe33a1-76d3-4c29-b757-2d9fd4cfc269",
+  "name": "Colobus, magistrate black",
+  "price": 57
+}, {
+  "id": "0cb5b8d0-ce8c-4745-879d-9534a56e7127",
+  "name": "Silver gull",
+  "price": 33
+}, {
+  "id": "55a982ee-88ad-44fb-b455-f04d5b9aac20",
+  "name": "Peacock, indian",
+  "price": 15
+}, {
+  "id": "91f52251-b8d1-4841-b36c-2c648d582c69",
+  "name": "Weeper capuchin",
+  "price": 59
+}, {
+  "id": "5dd51097-3e7c-4420-a411-85a2e8d17f73",
+  "name": "Sloth, hoffman's",
+  "price": 17
+}, {
+  "id": "c6808570-d574-4c7e-8972-d7037a9c0c52",
+  "name": "Pie, indian tree",
+  "price": 17
+}, {
+  "id": "c276f81a-8ad1-49fc-b56b-6db5711f72e0",
+  "name": "Lesser mouse lemur",
+  "price": 34
+}, {
+  "id": "cfb0cb5e-9e50-499d-a0f6-2eccff4b7881",
+  "name": "Kangaroo, eastern grey",
+  "price": 62
+}, {
+  "id": "c81e99b7-d602-4d3a-b3a8-75fcf1eecaa1",
+  "name": "Cheetah",
+  "price": 90
+}, {
+  "id": "c081b0d4-2e3e-4560-88f9-fce0aaaf8c8d",
+  "name": "Three-banded plover",
+  "price": 10
+}, {
+  "id": "bd05cb78-49cf-4952-bd5c-4c3b7b18b78d",
+  "name": "Black-cheeked waxbill",
+  "price": 52
+}, {
+  "id": "dfde9d6b-43f2-4b21-aabf-0be66022872f",
+  "name": "Porcupine, indian",
+  "price": 33
+}, {
+  "id": "081bb924-9f13-48f7-9dbe-9bb9fade7a14",
+  "name": "Goose, cereopsis",
+  "price": 31
+}, {
+  "id": "daf5b9e7-2dc3-4067-ae98-ba8b58b40c86",
+  "name": "Dama wallaby",
+  "price": 70
+}, {
+  "id": "c3e292b8-74f2-4143-9b49-735b1ba1f8d9",
+  "name": "Starling, superb",
+  "price": 10
+}, {
+  "id": "4fbb300b-1c28-49f8-af53-b7b97ba1d180",
+  "name": "Red-tailed cockatoo",
+  "price": 49
+}, {
+  "id": "7d10ac68-576b-4854-b438-1f83773b4d62",
+  "name": "Great kiskadee",
+  "price": 26
+}, {
+  "id": "1d6a2d22-921c-459d-abb8-87b475c5f4bf",
+  "name": "Rhinoceros, white",
+  "price": 26
+}, {
+  "id": "a03e04ee-7d59-4ecb-834a-58e56dcd0bf9",
+  "name": "Nuthatch, red-breasted",
+  "price": 38
+}, {
+  "id": "889b664b-14e3-40dc-b338-208344047dfc",
+  "name": "Ocelot",
+  "price": 69
+}, {
+  "id": "596008ea-40c8-4069-bf33-75c22876780b",
+  "name": "Spoonbill, white",
+  "price": 16
+}, {
+  "id": "d8b04364-e851-4638-b0fd-6a3a663efbe4",
+  "name": "Carpet snake",
+  "price": 24
+}, {
+  "id": "17a3871b-393f-4f23-aaaf-a56c5b4505bf",
+  "name": "Seven-banded armadillo",
+  "price": 1
+}, {
+  "id": "6a0fc697-b6ff-457d-bad2-e7224e8033de",
+  "name": "Mongoose, javan gold-spotted",
+  "price": 92
+}, {
+  "id": "a30d6221-33a2-46c7-b7e1-35bb15dd74ad",
+  "name": "Phalarope, grey",
+  "price": 47
+}, {
+  "id": "3e0cc5fa-963e-4081-8dda-07c7abecf242",
+  "name": "European beaver",
+  "price": 20
+}, {
+  "id": "684a2c28-b970-4c12-9eb9-9f818bdb2b0f",
+  "name": "Buffalo, american",
+  "price": 4
+}, {
+  "id": "af9e2562-3e3f-46b6-a873-763bdf729dcc",
+  "name": "Fox, crab-eating",
+  "price": 87
+}]

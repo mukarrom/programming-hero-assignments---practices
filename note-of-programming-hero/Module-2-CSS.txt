@@ -1,0 +1,40 @@
+
+Module-1: CSS
+Date: 02/01/2022
+Box Model
+CSS box model combines 4 things:
+Content
+Padding
+Border
+margin
+FLEX
+Flex 
+Flex-direction: row,row-reverse,column-reverse;
+flex-wrap: no-wrap, wrap, wrap-reverse;
+Flex-wrap uses for handling Overflow.
+Flex-flow: (Shorthand for “flex-direction” and “flex-wrap”.)
+Flex-grow: (it is uses numeric values)
+flex-shrink
+flex-basis
+flex
+Justify-content: flex-start, flex-end, center, space-around, space-between, space-evenly;
+Horizontally alignment
+Align-content: flex-start, flex-end, center, stretch(default), space-around, space-between, space-evenly;
+Vertical alignment
+Align-item: flex-start, flex-end, center, stretch, baseline;
+Vertical alignment
+Align-self: auto, flex-start, flex-end, center, stretch(default), baseline;
+Vertical alignment
+order: 1,2,0(default), -1, etc. it is use for become some item before other items or after other items.
+
+
+Border image
+It has 6 properties:
+border-image-source:url();
+Border-image-slice:21px;
+border-image-width:25px;
+border-image-outset:5px;
+border-image-repeat: repeat, stretch, round, space;
+border-image: source slice/width/outset repeat
+“url” means : uniform resource locator.
+Search in google: border image generator.

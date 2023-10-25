@@ -1,0 +1,29 @@
+
+Module-1: HTML
+Date: 01/01/2022
+Tags
+HTML: hyper text markup language.
+tags:
+Bold, italic, heading (h1-h6), strong, attribute, anchor, href, navigate, image from online/local/folder.List, Container Tag, Ordered List, Unordered List, Button, Input Text Password, Div, Small, Br, Html Structure,
+ Head, Body, Title, Link, Meta Tag
+<b>bold</b>	 <i>italic</i>	 <h1>heading 1-6</h1>	 <strong>strong</strong>	 <a href="#">anchor and attribute(href)</a>
+Image from online: <img src="https://img.theculturetrip.com/wp-content/uploads/2020/10/rkm48m-e1603870286120.jpg" alt="blank Image">									image from local <img src="photos.jpg" alt="Nothing">					Image from folder <img src="image/me.jpg" alt="there is also empty">
+<ol><li>Ordered list</li></ol>	 <ul><li>unordered list</li></ul> 	<div>Container tag 1</div>	 <form action="#">container tag 2</form>	 input:<input type="text">	 <small>small</small>
+<head>head</head>	 <body>body</body> 	<title>title</title> 	css-link:<link rel="stylesheet" href="#">	 fav-icon link:<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+Home Work
+Difference between <b>bold</b> and  <strong>strong</strong> tag:
+ <b> tag use for make more style(style)
+<strong> tag used to make something important .
+Types of input <input>:
+<input type="button">		<input type="checkbox">
+<input type="color">		<input type="date">
+<input type="datetime-local">	<input type="email">
+<input type="file">			<input type="hidden">
+<input type="image">		<input type="month">
+<input type="number">		<input type="password">
+<input type="radio">		<input type="range">
+<input type="reset">		<input type="search">
+<input type="submit">		<input type="tel">
+<input type="text">			<input type="time">
+<input type="url">			<input type="week">
+

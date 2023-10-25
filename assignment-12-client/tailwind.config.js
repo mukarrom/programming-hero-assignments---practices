@@ -1,0 +1,25 @@
+module.exports = {
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  theme: {
+    // colors: {
+    //   "primary-1": "#631bff",
+    //   "primary-2": "#7341ff",
+    //   "primary-3": "#9378ff",
+    //   "light-1": "#f3f1ff",
+    //   "light-2": "#d4cfff",
+    //   "light-3": "#b6a8ff",
+    //   "dark-1": "#3b08aa",
+    //   "dark-2": "#4607d0",
+    //   "secondary": "#F000B8",
+    //   "accent": "#37CDBE",
+    //   "neutral": "#3D4451",
+    //   "base-100": "#FFFFFF",
+    //   "info": "#3ABFF8",
+    //   "success": "#36D399",
+    //   "warning": "#FBBD23",
+    //   "error": "#F87272",
+    // },
+    extend: {},
+  },
+  plugins: [require("daisyui")],
+};

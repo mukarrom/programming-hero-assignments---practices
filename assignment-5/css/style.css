@@ -1,0 +1,9 @@
+/* image height set */
+img {
+  width: 100%;
+  height: 600px;
+}
+/* input background color change */
+.bg-gray {
+  background-color: rgb(211, 208, 204);
+}

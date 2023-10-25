@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money-tracker</title>
+    <!-- Bootstrap Cdn link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- custom Css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <section class="container">
+        <!-- Heading -->
+        <h1 class="text-center text-primary my-5">Money Tracker</h1>
+        <!-- wrap all content -->
+        <div class="row">
+            <!-- <div class="col-md-8 col-lg-4"> -->
+            <!-- image -->
+            <div class="col-md-8 col-lg-6 mx-lg-2 mx-auto">
+                <img src="image/money.jpg" alt="coins" class="img-lg-fluid">
+            </div>
+            <!-- Calculate Income and Expenses -->
+            <div class="col-md-8 mx-md-auto col-lg-4 mx-lg-1 bg-light">
+
+                <!-- Income Input start -->
+                <div class="mt-3">
+                    <h4 class="text-center">Income</h4>
+                    <div class="row">
+                        <div class="col-4"><span class="float-end">Income:</span></div>
+                        <div class="col-8 float-end">
+                            <input class="border-0 ps-3 bg-gray fw-bold py-1 rounded w-100" type="text"
+                                id="income-input" value="0">
+                        </div>
+                    </div>
+                </div>
+                <!-- income input end -->
+                <!-- Expenses Input start -->
+                <h4 class="text-center mt-3">Expenses</h4>
+                <div class="">
+                    <!-- Food -->
+                    <div class="row">
+                        <div class="col-4"><span class="float-end">Food:</span></div>
+                        <div class="col-8 float-end">
+                            <input class="border-0 ps-3 bg-gray fw-bold py-1 rounded w-100" type="text" id="food-input"
+                                value="0">
+                        </div>
+                    </div>
+                    <!-- Rent -->
+                    <div class="row my-2">
+                        <div class="col-4"><span class="float-end">Rent:</span></div>
+                        <div class="col-8 float-end">
+                            <input class="border-0 ps-3 bg-gray fw-bold py-1 rounded w-100" type="text" id="rent-input"
+                                value="0">
+                        </div>
+                    </div>
+                    <!-- Clothes -->
+                    <div class="row">
+                        <div class="col-4"><span class="float-end">Clothes:</span></div>
+                        <div class="col-8 float-end">
+                            <input class="border-0 ps-3 bg-gray fw-bold py-1 rounded w-100" type="text"
+                                id="clothes-input" value="0">
+                        </div>
+                    </div>
+                </div>
+                <!-- Expenses input ends -->
+                <!-- calculate button  -->
+                <button class="btn btn-primary mx-auto d-block my-3 px-4" id="calculate-btn">Calculate</button>
+                <!-- Total Expanses and balance -->
+                <div>
+                    <h4 class="text-center">Total Expenses: <span id="total-expenses">0</span></h4>
+                    <h4 class="text-center">Balance: <span id="balance">0</span></h4>
+                </div>
+                <!-- save calculate -->
+                <div class="row my-4">
+                    <div class="col-2">
+                        <span class="float-end">Save:</span>
+                    </div>
+                    <div class="col-4">
+                        <input class="w-100 py-1 border-0 ps-3 bg-gray fw-bold py-1 rounded" type="text" id="save-input"
+                            value="0">
+                    </div>
+                    <div class="col-1">
+                        <p>%</p>
+                    </div>
+                    <div class="col-4"><button class="btn btn-primary w-100" id="seve-btn">Save</button></div>
+                </div>
+                <!-- save amount and remaining balance -->
+                <h4 class="text-center">Saving Amount: <span id="saving-amount">0</span></h4>
+                <h4 class="text-center mb-5">Remaining Balance: <span id="remaining-balance">0</span></h4>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- javascript link -->
+    <script src="js/app.js"></script>
+</body>
+
+</html>

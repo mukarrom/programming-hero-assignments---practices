@@ -1,0 +1,134 @@
+@import url('https://fonts.maateen.me/kalpurush/font.css');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	-webkit-print-color-adjust: exact !important;
+	print-color-adjust: exact !important;
+	font-family: 'Kalpurush', sans-serif;
+}
+.invoice {
+	height: 210mm;
+	width: 148.5mm;
+	margin: 0 auto;
+}
+.logo {
+	width: 100px;
+	height: 100px;
+}
+.logo img {
+	width: 100%;
+}
+.header {
+	/* border-bottom: 1px solid; */
+	padding: 10px 5px;
+	display: grid;
+	grid-template-columns: 100px 100%;
+	align-items: center;
+}
+.header h2 {
+	color: #ba274a;
+	text-transform: uppercase;
+}
+.header h2:first-child {
+	color: indigo;
+}
+.header div:first-child {
+	position: relative;
+}
+.header div:last-child {
+	margin-left: 5px;
+}
+.header div:first-child::after {
+	content: '';
+	width: 2px;
+	height: 100%;
+	background-color: indigo;
+	position: absolute;
+	top: 0;
+}
+
+.customer {
+	border: 1px solid rgb(177, 174, 174);
+}
+.group-1,
+.group-2,
+.group-3,
+.group-4 {
+	display: flex;
+	gap: 5px;
+	justify-content: space-between;
+	padding: 0 5px;
+}
+.group-1 div:first-child span:first-child,
+.group-2 div:first-child span:first-child,
+.group-3 div:first-child span:first-child,
+.group-4 div:first-child span:first-child {
+	display: inline-block;
+	width: 60px;
+}
+.group-1 span,
+.group-2 span,
+.group-3 span,
+.group-4 span {
+	margin-right: 10px;
+}
+
+/* table */
+table {
+	border-collapse: collapse;
+	width: 100%;
+	margin: 20px 0 0 0;
+}
+th {
+	/* border-top: 1px solid rgb(163, 158, 158);
+    border-bottom: 1px solid rgb(163, 158, 158); */
+	padding: 8px 4px 8px 8px;
+	text-align: left;
+}
+
+table tr:first-child {
+	border: 1px solid rgb(163, 158, 158);
+	background-color: indigo;
+	color: white;
+}
+
+td {
+	padding: 8px;
+	text-align: left;
+	border-bottom: 1px solid #ddd;
+}
+
+/* total */
+.total {
+	width: 50%;
+	margin: 20px auto;
+	display: flex;
+	flex-direction: column;
+}
+.total > div {
+	display: flex;
+	justify-content: space-between;
+}
+/* signature */
+.signature {
+	margin-top: 5rem;
+	display: flex;
+	justify-content: space-around;
+}
+.buyer,
+.seller {
+	position: relative;
+}
+.buyer span::before,
+.seller span::before {
+	content: '';
+	background-color: rgb(65, 61, 61);
+	width: 100%;
+	height: 1px;
+	position: absolute;
+	top: -5px;
+}

@@ -1,0 +1,97 @@
+@import url('https://fonts.maateen.me/kalpurush/font.css');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: kalpurush, serif;
+}
+body {
+	-webkit-print-color-adjust: exact !important;
+	print-color-adjust: exact !important;
+}
+.container {
+	width: 100%;
+	height: 100%;
+}
+.wrap {
+	width: 7.8in;
+	height: 6.2in;
+	border: 5px aqua groove;
+	outline: 10px solid darkgoldenrod;
+	padding: 2px 20px;
+	margin: 20px auto;
+}
+.header {
+    text-align: center;
+    margin: 0;
+}
+p {margin: -10px;}
+
+.wrap .header h2 {
+    margin: -10px;
+}
+
+.header img {
+	width: 60px;
+}
+.header h5 {
+	font-size: large;
+}
+.middle {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 30px;
+}
+.middle h1 {
+	background: goldenrod;
+	padding: 2px 10px;
+	border-radius: 15px;
+	color: white;
+}
+
+main {
+	line-height: 2;
+	text-align: justify;
+	margin-top: 30px;
+	line-height: 2;
+	font-size: 18px;
+}
+.space {
+	margin-bottom: 10px;
+}
+.date::before,
+.name::before,
+.father::before,
+.mother::before,
+.year::before,
+.roll::before,
+.birth::before,
+.class::before {
+	content: attr(data-content);
+	position: absolute;
+	font-weight: 600;
+	width: 100%;
+	margin-top: -5px;
+	margin-left: 10px;
+}
+
+/* signature */
+.signature {
+	margin-top: 6rem;
+	display: flex;
+	justify-content: space-around;
+}
+.buyer,
+.seller {
+	position: relative;
+}
+.buyer span::before,
+.seller span::before {
+	content: '';
+	background-color: rgb(65, 61, 61);
+	width: 100%;
+	height: 1px;
+	position: absolute;
+	top: -5px;
+}

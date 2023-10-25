@@ -1,0 +1,46 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+.bg-gray {
+  background-color: rgba(61, 57, 57, 0.219);
+}
+.bg-lightdark {
+  background-color: #202842;
+}
+.w-150 {
+  width: 150px;
+}
+.radius-00 {
+  border-radius: 50%;
+}
+.radius-1 {
+  border-radius: 25px;
+}
+.zindex-100 {
+  z-index: 100;
+}
+.zindex-200 {
+  z-index: 200;
+}
+.zindex-300 {
+  z-index: 300;
+}
+.badge-top {
+  position: absolute;
+  top: 0;
+  right: 10px;
+}
+.btn {
+  transition: all 1s;
+}
+.card-w {
+  width: 292px;
+  height: 480px;
+}
+.small-card {
+  width: 200px;
+  height: 200px;
+}
+.f-josefin {
+  font-family: "Josefin Sans", sans-serif;
+}

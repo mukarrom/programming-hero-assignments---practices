@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.main-wrap {width: 100%;}
+.wrap { width: 1128px; margin: 0 auto;}
+.color1 {color: green;}
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+/***** header css *****/
+header {margin-top: 50px;}
+.header-content {
+    width: 500px;
+}
+
+.border-left {
+    width: 4px;
+    height: 124px;
+    float: left;
+    background-color: green;
+    margin-right: 10px;
+    margin-top: 57px;
+    border-radius: 50px;
+    
+}
+.header-content h1 {
+    font-size: 60px;
+    font-weight: normal;
+    line-height: 80px;
+    font-family: 'Yeseva One', cursive;
+}
+.header-content p, p {
+    font-size: 18px;
+    line-height: 28px;
+}
+header img {
+    width: 400px;
+    /* margin-top: -100px; */
+    float: right;
+}
+button {
+    padding: 12px 37.5px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+}
+
+/* *****section 1: My Mission in 2022 ******/
+.main-heading h2 {
+    text-align: center;
+    font-size: 48px;
+    line-height: 70px;
+}
+.card {
+    width: 360px;
+    height: 376px;
+    padding: 25px 13px 45px 32px;
+    border-radius: 26px;
+    margin-bottom: 86px;
+}
+.card img {
+    width: 126px;
+    height: 126px;
+}
+.card1 {background-color: rgba(79, 157, 166, 0.1);}
+.card2 {
+    background-color: rgba(255, 89, 89, 0.1);
+    margin: 0 24px;
+}
+.card3 {background-color: #FFF4D6;}
+
+/* ***** section 2 & 3 ***** */
+.section2 img {
+    width: 400px;
+    height: 400px;
+    margin-bottom: 100px;
+    border-radius: 25px;
+}
+.section2-content {
+    width: 654px;
+    height: 311px;
+    margin: 30px 0;
+}
+.section2-content h2, form h2 {
+    font-size: 36px;
+    line-height: 54px;
+}
+.section2-content p {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+
+/* ***** Services ****** */
+.service h1{
+    font-size: 48px;
+    text-align: center;
+}
+.service img {
+    width:80px;
+    float: left;
+    padding-right: 20px;
+}
+.service p {margin-top: 40px;}
+.design, .development, .maintenance {
+    width: 25%;
+    height: 250px;
+    padding: 20px;
+    box-shadow: 20px 20px 46px 10px rgb(194, 224, 187);
+    border-radius: 25px;
+}
+
+/* contact */
+.wrapper {
+    width: 500px;
+    height: 550px;
+    margin: 100px auto;
+    text-align: center;
+    background-color: rgb(230, 240, 228);
+    font-size: 20px;
+    border-radius: 25px;
+}
+input {
+    padding: 10px 40px;
+    border-radius: 15px;
+    text-align: center;
+    margin: 10px;
+}
+
+/* ***** Footer ***** */
+footer {
+    background-color: #0B0D17;
+    text-align: center;
+    color: white;
+}
+footer h3 {
+    font-family: 'Lobster', cursive;
+    font-size: 36px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    padding-top: 39px;
+}
+.color2 {color: lightgreen;}
+footer p {
+    color: #D9DBE1;
+    font-size: 14px;
+    padding-bottom: 46px;
+}

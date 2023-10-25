@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title  -->
+    <title>banking page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <header>
+        <h1 class="text-5xl text-center mt-16">Let's get some <span
+                class="font-semibold text-purple-600">Mooooony</span>!!!</h1>
+    </header>
+    <!-- main  -->
+    <main class="w-3/4 mx-auto">
+        <!-- Balance and Transection -->
+        <section class="mt-8">
+            <div class="grid grid-cols-3 gap-4 text-white">
+                <div class="bg-green-400 p-8 rounded text-center">
+                    <h3 class="text-2xl">Diposit</h3>
+                    <h4 class="text-4xl ">$<span id="deposit-amount">00</span></h4>
+                </div>
+                <div class="bg-blue-400 p-8 rounded">
+                    <h3 class="text-2xl">Withdraw</h3>
+                    <h4 class="text-4xl ">$<span id="withdraw-amount">00</span></h4>
+                </div>
+                <div class="bg-yellow-400 p-8 rounded">
+                    <h3 class="text-2xl">Balance</h3>
+                    <h4 class="text-4xl ">$<span id="balance-amount">00</span></h4>
+                </div>
+            </div>
+        </section>
+        <!-- Deposit and Withdraw -->
+        <section class="mt-8">
+            <div class="grid grid-cols-2 gap-4">
+                <!-- Deposit -->
+                <div class="bg-red-100 p-8 rounded">
+                    <h3 class="text-2xl mb-4">Please Deposit</h3>
+                    <div class="">
+                        <input class="border border-gray-400 rounded block w-3/4 mb-4 px-2" type="text"
+                            placeholder="$ amount you want to deposit" name="" id="input-deposit">
+
+                        <button class="bg-yellow-600 px-4 rounded py-2 text-white font-medium"
+                            id="btn-deposit">Deposit</button>
+                    </div>
+                </div>
+                <!-- withdraw  -->
+                <div class="bg-purple-100 p-8 rounded">
+                    <h3 class="text-2xl mb-4">Please Withdraw</h3>
+                    <div class="">
+                        <input class="border border-gray-400 rounded block w-3/4 mb-4 px-2" type="text"
+                            placeholder="$ amount you want to withdraw" name="" id="input-withdraw">
+
+                        <button class="bg-yellow-600 px-4 rounded py-2 text-white font-medium"
+                            id="btn-withdraw">Withdraw</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script>
+        let inputNumber;
+        function depositTotal(input, amount) {
+            // get deposit input and convert to number
+            const getInput = document.getElementById(input).value;
+            inputNumber = parseFloat(getInput);
+            //get deposit amount and convert to nember
+            const getText = document.getElementById(amount).innerText;
+            const amountNumber = parseFloat(getText);
+            //addition diposit
+            const addition = inputNumber + amountNumber;
+            const additionTotal = document.getElementById(amount).innerText = addition;
+            //clear input
+            document.getElementById(input).value = '';
+
+            return additionTotal;
+        }
+        function currentBalance(isAdd) {
+            const getBalanceText = document.getElementById('balance-amount');
+            const balanceAmount = parseFloat(getBalanceText.innerText);
+
+            if (isAdd == true) {
+                getBalanceText.innerText = balanceAmount + inputNumber;
+            } else {
+                getBalanceText.innerText = balanceAmount - inputNumber;
+            }
+            return getBalanceText.innerText;
+        }
+
+        // Deposit and update balance
+        document.getElementById('btn-deposit').addEventListener('click', function () {
+            depositTotal('input-deposit', 'deposit-amount');
+            currentBalance(true);
+            // get deposit input and convert to number
+            // let getInput = document.getElementById('input-deposit').value;
+            // const depositInput = parseFloat(getInput)
+
+            // //get deposit amount and convert to nember
+            // const getDepositText = document.getElementById('deposit-amount').innerText;
+            // const depositAmount = parseFloat(getDepositText);
+            // //addition diposit
+            // const addDiposit = depositInput + depositAmount;
+            // document.getElementById('deposit-amount').innerText = addDiposit;
+
+
+            // Balance update and convert to number
+            // const getBalanceText = document.getElementById('balance-amount');
+            // const balanceAmount = parseFloat(getBalanceText.innerText);
+            // getBalanceText.innerText = balanceAmount + inputNumber;
+            // const updateBalance = document.getElementById('balance-amount').innerText = additionBalance;
+
+            //clear input
+
+        })
+        // // withdraw and update balance 
+        document.getElementById('btn-withdraw').addEventListener('click', function () {
+            depositTotal('input-withdraw', 'withdraw-amount');
+            currentBalance(false);
+            //     // get input value and convert to number
+            //     // const getInput = document.getElementById('input-withdraw').value;
+            //     // const withdrawInput = parseFloat(getInput);
+
+            //     // // addition withdraw
+            //     // const withdrawAmountText = document.getElementById('withdraw-amount').innerText;
+            //     // const withdrawAmount = parseFloat(withdrawAmountText);
+            //     // const additionWithdraw = withdrawInput + withdrawAmount;
+            //     // document.getElementById('withdraw-amount').innerText = additionWithdraw;
+
+
+            //     // Update balance
+            // const getBalanceText = document.getElementById('balance-amount').innerText;
+            // const balanceAmount = parseFloat(getBalanceText);
+            // const additionBalance = balanceAmount - inputNumber;
+            // const updateBalance = document.getElementById('balance-amount').innerText = additionBalance;
+
+            //     // clear input
+            //     // document.getElementById('input-withdraw').value = '';
+        })
+    </script>
+    <!-- script link  -->
+    <!-- <script src="./banking.js"></script> -->
+</body>
+
+</html>

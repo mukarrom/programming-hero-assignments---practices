@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@font-face {
+	font-family: SakraScript;
+	src: url(./Sakra\ Script\ Regular.ttf);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	/* font-weight: 200; */
+}
+body {
+	-webkit-print-color-adjust: exact !important;
+	print-color-adjust: exact !important;
+	font-family: 'Libre Baskerville', serif;
+	text-align: center;
+	font-weight: 300;
+	line-height: 1.5;
+}
+.wrap {
+	width: 10in;
+	height: 6in;
+	margin: 5vh auto;
+	/* border: 1px solid; */
+	border-image: url(./border.png);
+	border-image-slice: fill 1;
+	padding: 50px 80px;
+}
+.wrap .main {
+	width: 70%;
+	margin: 0 auto;
+}
+.wrap .main .dot {
+	display: flex;
+	gap: 15px;
+	justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+.wrap .main .dot .dot1 {
+	width: 10px;
+	height: 10px;
+	background-color: goldenrod;
+    transform: rotate(45deg);
+}
+.wrap .main .dot .dot2 {
+	width: 20px;
+	height: 20px;
+	background-color: rgb(72, 32, 218);
+    transform: rotate(45deg);
+}
+.wrap .main .dot .dot3 {
+	width: 10px;
+	height: 10px;
+	background-color: goldenrod;
+    transform: rotate(45deg);
+}
+.wrap .main .certificate {
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	font-size: 38px;
+	font-weight: 300;
+}
+
+.wrap .main .achievement {
+	text-transform: uppercase;
+	font-weight: 300;
+}
+.wrap .main .name {
+	/* font-family: SakraScript; */
+	font-family: 'Dancing Script', cursive;
+	font-weight: 500;
+	font-size: 56px;
+}
+.wrap .signature {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 3rem;
+}

@@ -1,0 +1,511 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Custom Style CSS link  -->
+    <link rel="stylesheet" href="style.css">
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/4de82cb594.js" crossorigin="anonymous"></script>
+    <!-- google fonts family link poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins&display=swap" rel="stylesheet">
+
+    <title>MMH Convention Center</title>
+</head>
+
+<body>
+    <!-- header start -->
+    <header class="mb-5">
+        <!-- Navbar start -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand fw-bolder" href="#">
+                    <p class="h3 fw-bolder">MMH Convention Center</p>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Subscribe</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar end -->
+        <!-- Slider start -->
+        <section>
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="">
+                            <img src="./images/corporate-events.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-caption bg-gray">
+                            <h1 class="fw-bold p-3 ">The perfect venue for <br> corporate events</h1>
+                            <p>Take your next corporate event to new heights at one of best venues. </p>
+                            <a href="https://www.bashundharaconvention.com/" class="btn btn-light" target="_blank">Book
+                                Now</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/seminars.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption bg-gray">
+                            <h1 class="fw-bold p-3 ">The perfect venue for <br> Training and Seminars</h1>
+                            <p>Inspiring Meeting Experiences
+                                Great settings for great talks
+                            </p>
+                            <a href="https://www.bashundharaconvention.com/" class="btn btn-light fw-bold px-4"
+                                target="_blank">Book Now</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/wedding-hall.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption bg-gray">
+                            <h1 class="fw-bold p-3 ">The perfect venue for <br>Wedding Ceremony</h1>
+                            <p>A wide and vast view with the green environment</p>
+                            <a href="https://www.bashundharaconvention.com/" class="btn btn-light fw-bold px-4"
+                                target="_blank">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <!-- Slider end -->
+    </header>
+
+
+    <!-- toaste start -->
+    <div class="position-relative zindex-100 ">
+        <div class="toast align-items-center toast show position-absolute top-0 end-0 rounded border-5 border-end-0 border-bottom-0 border-top-0 border-primary"
+            role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="toast-body">
+                    <small class="me-2"><svg width="22" height="23" viewBox="0 0 22 23" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M21.12 5.88889H17.061C17.435 5.29444 17.655 4.58889 17.655 3.83333C17.655 1.71944 15.9528 0 13.86 0C12.7215 0 11.6958 0.511111 11 1.31667C10.3042 0.511111 9.2785 0 8.14 0C6.04725 0 4.345 1.71944 4.345 3.83333C4.345 4.58889 4.56225 5.29444 4.939 5.88889H0.88C0.39325 5.88889 0 6.28611 0 6.77778V12.3333C0 12.4556 0.099 12.5556 0.22 12.5556H1.32V22.1111C1.32 22.6028 1.71325 23 2.2 23H19.8C20.2868 23 20.68 22.6028 20.68 22.1111V12.5556H21.78C21.901 12.5556 22 12.4556 22 12.3333V6.77778C22 6.28611 21.6068 5.88889 21.12 5.88889ZM11.935 3.83333C11.935 2.76111 12.7985 1.88889 13.86 1.88889C14.9215 1.88889 15.785 2.76111 15.785 3.83333C15.785 4.90556 14.9215 5.77778 13.86 5.77778H11.935V3.83333ZM8.14 1.88889C9.2015 1.88889 10.065 2.76111 10.065 3.83333V5.77778H8.14C7.0785 5.77778 6.215 4.90556 6.215 3.83333C6.215 2.76111 7.0785 1.88889 8.14 1.88889ZM1.87 10.6667V7.77778H10.065V10.6667H1.87ZM3.19 12.5556H10.065V21.1111H3.19V12.5556ZM18.81 21.1111H11.935V12.5556H18.81V21.1111ZM20.13 10.6667H11.935V7.77778H20.13V10.6667Z"
+                                fill="#007CFF" fill-opacity="0.63" />
+                        </svg>
+                    </small>
+                    20% off on next booking
+                </div>
+                <button type="button" class="btn-close me-2" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- toast end -->
+    <!-- main start -->
+    <main class="container">
+        <!-- a grand space -->
+        <section>
+            <h2 class="text-center">A Grand Space</h2>
+            <p class="text-center">'Space' defines and determines the mood of the moment. It spreads its spell,
+                resonating an enchanting aura all around. We discover ourselves in the midst of something that only
+                appeals to our sences. That's why, this time, we have created spaces that aim to enliven your
+                occassions.</p>
+
+            <div class="d-flex flex-wrap f-josefin justify-content-center">
+                <div
+                    class="d-flex flex-column align-items-center justify-content-center bg-warning small-card radius-00 m-2">
+                    <div class="">
+                        <i class="fas fa-car display-1"></i>
+                    </div>
+                    <h6 class="text-center">
+                        3500+ Car Parking
+                    </h6>
+                </div>
+                <div
+                    class="d-flex flex-column align-items-center justify-content-center bg-warning small-card radius-00 m-2">
+                    <div class="position-relative">
+                        <div class="w-50 mx-auto">
+                            <svg version="1.1" class="w-100" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 322.719 322.719"
+                                style="enable-background:new 0 0 322.719 322.719;" xml:space="preserve">
+                                <g>
+                                    <path d="M322.158,45.444c-1.402-4.012-5.188-6.7-9.439-6.7h-269.2c-5.522,0-10,4.477-10,10v75.496
+                               c0,20.537,16.708,37.245,37.245,37.245h6.583v18.614c0,11.651,9.479,21.129,21.129,21.129h3.879
+                               c-3.021,20.826-20.985,36.877-42.635,36.877c-0.871,0-1.712,0.123-2.518,0.332v-5.333c0-11.651-9.479-21.13-21.13-21.13H10
+                               c-5.522,0-10,4.477-10,10v52c0,5.523,4.478,10,10,10h26.072c11.651,0,21.13-9.479,21.13-21.129v-5.073
+                               c0.806,0.209,1.646,0.332,2.518,0.332c32.691,0,59.649-24.995,62.78-56.877h5.717c11.651,0,21.13-9.479,21.13-21.129v-18.614
+                               h108.584c20.537,0,37.245-16.708,37.245-37.245V75.502l23.773-18.936C322.274,53.918,323.562,49.457,322.158,45.444z
+                                M37.202,262.846c0,0.623-0.507,1.129-1.13,1.129H20v-32h16.072c0.623,0,1.13,0.507,1.13,1.13V262.846z M129.347,180.099
+                               c0,0.623-0.507,1.129-1.13,1.129H98.476c-0.622,0-1.129-0.507-1.129-1.129v-16.073h32V180.099z M275.176,124.24
+                               c0,9.509-7.736,17.245-17.245,17.245H70.764c-9.509,0-17.245-7.736-17.245-17.245v-11.125h182.675
+                               c7.585,0,15.028-2.602,20.961-7.328l18.021-14.354V124.24z M244.693,90.143c-2.405,1.916-5.424,2.971-8.5,2.971H53.519v-34.37
+                               h230.595L244.693,90.143z" />
+                                    <path d="M310.719,75.952c-5.522,0-10,4.477-10,10v38.998c0,5.523,4.478,10,10,10s10-4.477,10-10V85.952
+                               C320.719,80.429,316.241,75.952,310.719,75.952z" />
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                    <h6 class="text-center">
+                        Round the clock CCTV coverage
+                    </h6>
+                </div>
+                <div
+                    class="d-flex flex-column align-items-center justify-content-center bg-warning small-card radius-00 m-2">
+                    <div class="">
+                        <i class="fas fa-bus display-1"></i>
+                    </div>
+                    <h6 class="text-center">
+                        Guest Transportation
+                    </h6>
+                </div>
+                <div
+                    class="d-flex flex-column align-items-center justify-content-center bg-warning small-card radius-00 m-2">
+                    <div class="">
+                        <i class="fas fa-shield-alt display-1"></i>
+                    </div>
+                    <h6 class="text-center">
+                        Highly Trained Security Personnel
+                    </h6>
+                </div>
+                <div
+                    class="d-flex flex-column align-items-center justify-content-center bg-warning small-card radius-00 m-2">
+                    <div class="">
+                        <i class="fas fa-wifi display-1"></i>
+                    </div>
+                    <h6 class="text-center">
+                        Wifi
+                    </h6>
+                </div>
+                <div
+                    class="d-flex flex-column align-items-center justify-content-center bg-warning small-card radius-00 m-2">
+                    <div class="">
+                        <i class="fas fa-people-carry display-1"></i>
+                    </div>
+                    <h6 class="text-center">
+                        Well Trained Service Staffs
+                    </h6>
+                </div>
+                <div
+                    class="d-flex flex-column align-items-center justify-content-center bg-warning small-card radius-00 m-2">
+                    <div class="">
+                        <i class="fas fa-toolbox display-1"></i>
+                    </div>
+                    <h6 class="text-center">
+                        Modern Amenities
+                    </h6>
+                </div>
+                <div
+                    class="d-flex flex-column align-items-center justify-content-center bg-warning small-card radius-00 m-2">
+                    <div class="">
+                        <i class="fas fa-users-cog display-1"></i>
+                    </div>
+                    <h6 class="text-center">
+                        Services
+                    </h6>
+                </div>
+            </div>
+        </section>
+        <!-- Pricing section -->
+        <section class="pricing my-5">
+            <div class="row row-cols-1 row-cols-md-4 g-4">
+                <!-- card-1 -->
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                    <div class="card card-w border-0 radius-1">
+                        <div class="card-body">
+                            <h2 class="fw-bold py-3">&dollar;300</h2>
+                            <h4 class="card-title fw-bold">Business fair</h4>
+                            <p class="card-text">for most businesses event like fair. craft fair.</p>
+                            <p class="card-text">
+                                <i class="fas fa-check-circle"></i>
+                                limited space access
+                            </p>
+                            <p class="card-text">
+                                <i class="fas fa-check-circle"></i>
+                                Secuirty facility
+                            </p>
+                            <p class="card-text">
+                                <i class="fas fa-check-circle"></i>
+                                event support
+                            </p>
+                            <p class="card-text">
+                                <i class="fas fa-check-circle"></i>
+                                Decoration design
+                            </p>
+                            <p class="card-text">
+                                <i class="fas fa-check-circle"></i>
+                                Per day bill
+                            </p>
+
+                        </div>
+                        <a href="" class="btn btn-outline-dark rounded-pill mx-4 mb-3">Choose plan</a>
+                    </div>
+                </div>
+                <!-- card-2  -->
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                    <div class="card card-w border-0 radius-1">
+                        <div class="card-body">
+                            <h2 class="fw-bold py-3">&dollar;500</h2>
+                            <h4 class="card-title fw-bold">Wedding basic</h4>
+                            <p class="card-text">For weddings with basic plan and limited item</p>
+                            <p class="card-text">
+                                <i class="fas fa-check-circle"></i>
+                                Full space access
+                            </p>
+                            <p class="card-text">
+                                <i class="fas fa-check-circle"></i>
+                                Food arrangement
+                            </p>
+                            <p class="card-text">
+                                <i class="fas fa-check-circle"></i>
+                                Management support
+                            </p>
+                            <p class="card-text">
+                                <i class="fas fa-check-circle"></i>
+                                Decoration design
+                            </p>
+                            <p class="card-text">
+                                <i class="fas fa-check-circle"></i>
+                                Bill as shift
+                            </p>
+
+                        </div>
+                        <a href="" class="btn btn-outline-dark rounded-pill mx-4 mb-3">Choose plan</a>
+                    </div>
+                </div>
+                <!-- card-3 -->
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                    <div class="card card-w border-0 shadow radius-1 bg-lightdark text-white">
+                        <div class="card-body">
+                            <!-- badge start -->
+                            <span class="badge-top translate-middle badge rounded-pill bg-danger">
+                                Hot
+                                <span class="visually-hidden">unread messages</span>
+                            </span>
+                            <!-- badge end -->
+                            <h2 class="fw-bold py-3">&dollar;1200</h2>
+                            <h4 class="card-title fw-bold">Wedding plus</h4>
+                            <p class="card-text">For most weddings with premium plans</p>
+                            <p class="card-text">
+                                <i class="fas fa-check-circle"></i>
+                                Full space access
+                            </p>
+                            <p class="card-text">
+                                <i class="fas fa-check-circle"></i>
+                                Dedicated team
+                            </p>
+                            <p class="card-text">
+                                <i class="fas fa-check-circle"></i>
+                                Buffet food
+                            </p>
+                            <p class="card-text">
+                                <i class="fas fa-check-circle"></i>
+                                premium Decoration
+                            </p>
+                            <p class="card-text">
+                                <i class="fas fa-check-circle"></i>
+                                pay as plan
+                            </p>
+
+                        </div>
+                        <a href="" class="btn bg-light rounded-pill mx-4 mb-3">Choose plan</a>
+                    </div>
+                </div>
+                <!-- card-4 -->
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                    <div class="card card-w border-0">
+                        <div class="card-body">
+                            <h2 class="fw-bold py-3">&dollar;1200</h2>
+                            <h4 class="card-title fw-bold">Corporate event</h4>
+                            <p class="card-text">For most corporate business events</p>
+                            <p class="card-text">
+                                <i class="fas fa-check-circle"></i>
+                                Full space access
+                            </p>
+                            <p class="card-text">
+                                <i class="fas fa-check-circle"></i>
+                                Dedicated team
+                            </p>
+                            <p class="card-text">
+                                <i class="fas fa-check-circle"></i>
+                                Buffet food
+                            </p>
+                            <p class="card-text">
+                                <i class="fas fa-check-circle"></i>
+                                premium Decoration
+                            </p>
+                            <p class="card-text">
+                                <i class="fas fa-check-circle"></i>
+                                pay as plan
+                            </p>
+
+                        </div>
+                        <a href="" class="btn btn-outline-dark rounded-pill mx-4 mb-3">Choose plan</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- Frequently Asked Questions -->
+        <section class="my-5">
+            <h1 class="text-center my-5">Frequently Asked Questions</h1>
+            <div class="row d-flex flex-column-reverse flex-lg-row">
+                <div class="accordion col-md-12 col-lg-6" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Can we provide our own food or beverages for an event?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Our Convention Centre by Carmen’s is a full service facility. As such, there are rules
+                                and regulations in place that prohibit us from allowing any outside food and beverage
+                                due to liability purposes. All food and beverage needs must be arranged through the
+                                Hamilton Convention Centre by Carmen’s
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Is there parking at the Convention Centre? How much does it cost?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Absolutely. The Hamilton Convention Centre by Carmen’s is directly connected to a six
+                                level underground parking garage operated by the City of Hamilton Municipal Parking
+                                Authority, able to accommodate up to 600 vehicles at once. Because this is a municipal
+                                owned lot, parking charges will apply based on the duration of stay and can range
+                                anywhere from $2.00 per hour to a daily maximum of $11.00. Rain or shine, you won’t have
+                                to worry about braving the elements, as you can take the elevator right from the
+                                underground parking lot directly to the first, second or third floor levels of the
+                                Hamilton Convention Centre by Carmen’s.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Is the Convention Centre wheelchair accessible?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Yes it is, starting right from the underground parking lot. Guests can be dropped off at
+                                the front doors, or take an elevator right from the under parking lot, directly into the
+                                facility. Additionally, all of our washrooms are wheelchair accessible, our hallways
+                                wide set, and we are proud to say that we are fully accessible. Please check out the
+                                Accessibility section of our website. Special note, wheel chairs are on site in the case
+                                of an emergency.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-6 mb-4">
+                    <img src="./images/people.png" alt="" class="w-100" width="">
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- main end -->
+    <!-- footer start -->
+    <footer class="bg-dark">
+        <div
+            class="container text-white d-flex flex-column-reverse  align-items-center flex-md-row justify-content-between pt-5">
+            <p class="pt-4">&copy; 2022 MMH. All rights reserved.</p>
+            <div class="d-flex flex-column align-items-center w-150">
+                <h4>Get the App</h4>
+                <div class="w-100"><a href="https://apps.apple.com/us/app/programming-hero-coding-fun/id1478201849"
+                        target="_blank"><img class="w-100" src="./images/apple.png" alt=""></a></div>
+                <div class="w-100"><a
+                        href="https://play.google.com/store/apps/details?id=com.learnprogramming.codecamp&hl=en&gl=US"
+                        target="_blank"><img class="w-100" src="./images/play-store.png" alt=""></a></div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
